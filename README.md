@@ -31,3 +31,21 @@ Control flow statements:
 Null Safety: Types in code default are non-nullable. Unless it was told nullable by adding ? to its type declaration.
 Non-nullable top-level variables and static fields must have initializers.Non-nullable instance fields must be initialized
 before the constructor body begins.
+
+Function vs method
+-   Same: both using to do some work
+-   Diff:
+    +) Function was declared outside the class and is a top-level function, or was created inside another function or method .
+    +) Method was created inside a class and tide to an instance of the class. Method can be referenced by using 'this'.
+    
+Syntax vs Properties
+-   Syntax is the set of rules for typing
+-   Properties is the top-level variables or was tied to class or object.
+
+Flutter project types
+-   Flutter Application: A standalone, fully-functional Flutter application.
+-   Flutter Plugin: A plugin is a kind of bridge that you develop between a native feature like camera API in Android and iOS.
+-   Flutter Package: A package is a flutter application written solely using Dart.
+    It doesn't have much to do with the Native functionalities.
+-   Flutter Module: A module is a set of functionalities that you want to use in your app. 
+    It is a custom code that does a specific task but can be used for other apps in the future. So, you keep it handy.
